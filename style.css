@@ -1,0 +1,54 @@
+/*
+Theme Name: Prism
+Theme URI: https://themes.spencerk.xyz/
+Author: Spencer K Media
+Author URI: https://www.spencerkmedia.com/
+Description: Complex, professional wordpress theme made to show work, sell goods and advertise services & experience. Utilizing some of the newest technologies available for wordpress, our theme works great in many languages, for any abilities, and on any device.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: prism-theme
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Do not edit, redistribute or otherwise user/change this theme without written consent from I, Spencer Phillips, failure to abide by these rules can be pursued in a court of law and be fined up to $25,000.
+*/
+@import "https://dev.spencerkmedia.com/wp-content/themes/Prism/assets/css/bootstrap.min.css?ver=00.00.01";
+@import "assets/css/style.css?ver=00.00.00.48";
+@import "https://use.typekit.net/cwk3gvs.css";
+
+.text-contained{
+  padding: 38.6% 0;
+  text-align: center;
+}
+.text-title{
+  background-color: $blue;
+    padding: 4% 0%;
+    max-width: 65%;
+    color: white;
+    font-weight: 500;
+    margin: 3% 20%;
+}
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .item.left.active {
+  transform: translateX(-33%);
+}
+.carousel-inner .item.right.active {
+  transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+  transform: translateX(33%)
+}
+.carousel-inner .item.prev {
+  transform: translateX(-33%)
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+  transform: translateX(0);
+}
+
+
+.carousel-control.left,.carousel-control.right {background-image:none;}

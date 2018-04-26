@@ -1,0 +1,74 @@
+.landing{
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15%;
+  max-height: 1000px;
+  min-height: 950px;
+  color: $white!important;
+}
+.landing::after{
+  background: linear-gradient(rgba($blue, 0.75),rgba($green, 0.75));
+}
+.category-item, .container-fluid.call-to-action-container, .container-fluid.market-container, .quality-container {
+  background-size: cover;
+  background-repeat: no-repeat
+}
+.call-to-action{
+  min-height:250px;
+  height: auto;
+  padding: 3% 18%;
+  background-color: $midgray;
+  color: $white;
+  overflow-x: hidden;
+}
+.call-to-action h2{
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 60px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 35px;
+}
+.call-to-action p{
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+}
+.call-to-action img{
+  max-width: 565px;
+}
+.col-box {
+  padding: 2%;
+  background-color: #fff;
+  color: #11508e;
+  text-align: center;
+  width: 100%;
+  height: 100%
+}
+
+.title-section {
+  padding: 2.5% 7.5%
+}
+
+.title-section:first-child {
+  background-color: white;
+  background-image: url(//themes.ishyoboy.com/minicorp/wp/wp/wp-content/themes/minicorp/assets/html/core/images/bg-patterns/ish-transparent-stripes-dark.png)!important
+}
+
+.title-section h1 {
+  color: $blue!important;
+  font-weight: lighter
+}
+@media screen and (max-width:768px) {
+
+  .container.portfolio-container {
+    min-height: 400px;
+    height: auto
+  }
+}
+.color-white {
+  color: white
+}

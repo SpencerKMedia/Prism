@@ -1,0 +1,45 @@
+.landing.theme {
+  background: url('https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg');
+}
+@media screen and (max-width:768px) {
+  .theme-landing{
+    padding: 25% 15%;
+    max-height: 450px;
+    min-height: 175px;
+    background-position: top center;
+  }
+}
+.col-md-4.theme{
+  min-height: 100px;
+  height: auto;
+  padding: 10% 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white!important;
+}
+.col-md-4.theme:hover{
+  background:linear-gradient(
+    rgba($blue, 1),
+    rgba($green, 1)
+  );
+  background-image: linear-gradient(rgba($blue, .85),
+  rgba($green, .85))!important;
+}
+.col-md-4.theme .theme-inner{
+  opacity: 0;
+}
+.col-md-4.theme:hover .theme-inner{
+  opacity: 1;
+}
+@media screen and (min-width: 1024px){
+  .col-md-4.theme{
+    width: 31%;
+  }
+  .col-md-4.theme:not(:nth-child(3n+3)){
+    margin-right: 2%;
+  }
+}

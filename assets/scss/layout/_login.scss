@@ -1,0 +1,24 @@
+.login-container{
+  height: 100%;
+  width: 100%;
+  padding: 15% 25%;
+  background:linear-gradient(
+    rgba($blue, 1),
+    rgba($green, 1)
+  );
+  background-image: linear-gradient(rgba($blue, .85),
+  rgba($green, .85))!important;
+}
+@media screen and (min-width: 1024px){
+  .login-container{
+    height: 100%;
+  }
+}
+.login-area{
+  background: $white;
+  padding: 10%;
+}
+.login-logo{
+  max-width: 200px;
+  height: auto;
+}

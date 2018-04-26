@@ -1,0 +1,260 @@
+/* Start BASE CSS*/
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Roboto|Roboto+Condensed');
+@font-face {
+    font-family: 'Lulo Clean One';
+    src: url('/fonts/hinted-LuloCleanOne-Bold.eot');
+    src: url('/fonts/hinted-LuloCleanOne-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/hinted-LuloCleanOne-Bold.woff2') format('woff2'),
+        url('/fonts/hinted-LuloCleanOne-Bold.woff') format('woff'),
+        url('/fonts/hinted-LuloCleanOne-Bold.ttf') format('truetype'),
+        url('/fonts/hinted-LuloCleanOne-Bold.svg#LuloCleanOne-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lulo Clean Outline';
+    src: url('/fonts/hinted-LuloCleanOutline-Bold.eot');
+    src: url('/fonts/hinted-LuloCleanOutline-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/hinted-LuloCleanOutline-Bold.woff2') format('woff2'),
+        url('/fonts/hinted-LuloCleanOutline-Bold.woff') format('woff'),
+        url('/fonts/hinted-LuloCleanOutline-Bold.ttf') format('truetype'),
+        url('/fonts/hinted-LuloCleanOutline-Bold.svg#LuloCleanOutline-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lulo Clean One';
+    src: url('/fonts/hinted-LuloCleanOne.eot');
+    src: url('/fonts/hinted-LuloCleanOne.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/hinted-LuloCleanOne.woff2') format('woff2'),
+        url('/fonts/hinted-LuloCleanOne.woff') format('woff'),
+        url('/fonts/hinted-LuloCleanOne.ttf') format('truetype'),
+        url('/fonts/hinted-LuloCleanOne.svg#LuloCleanOne') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lulo Clean Outline';
+    src: url('/fonts/hinted-LuloCleanOutline.eot');
+    src: url('/fonts/hinted-LuloCleanOutline.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/hinted-LuloCleanOutline.woff2') format('woff2'),
+        url('/fonts/hinted-LuloCleanOutline.woff') format('woff'),
+        url('/fonts/hinted-LuloCleanOutline.ttf') format('truetype'),
+        url('/fonts/hinted-LuloCleanOutline.svg#LuloCleanOutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$black            :            #121212;
+$white            :            #fff;
+$altwhite         :            #f1f1f1;
+$lightgray        :            #7e7c7c;
+$blue             :            #1976d2;
+$green            :            #04bd73;
+
+$lightblue        :            #19a4d2;
+$darkblue         :            #1948d2;
+
+$lightgreen       :            #05f796;
+$darkgreen        :            #03975c;
+
+$midgray          :            #202026;
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgba($black, 1)
+}
+
+::-webkit-scrollbar-thumb {
+  background: $white
+}
+
+$grad            :            linear-gradient(rgba($blue, 0.75),rgba($green, 0.75));
+@media screen and (min-width: 1024px){
+
+}
+
+body{overflow-x: hidden}
+.hidden {
+  opacity: 0
+}
+
+.visible {
+  opacity: 1
+}
+
+.container.container-margins, .container-fluid.container-margins {
+  margin-top: 115px!important;
+  margin-bottom: 115px!important
+}
+
+.container.container-padded, .container-fluid.container-padded {
+  padding-top: 115px!important;
+  padding-bottom: 115px!important
+}
+
+*{
+  font-size-adjust: 0.5;
+}
+h1,.h1{
+  font-size: 2em;
+  line-height: 1.25em;
+  font-family: 'Lulo Clean One';
+    font-weight: bold;
+    font-style: normal;
+}
+h2,.h2{
+  font-size: 1.625em;
+  line-height: 1.153846em;
+  font-family: 'Lulo Clean One';
+    font-weight: bold;
+    font-style: normal;
+}
+h3,.h3{
+  font-size: 1.375em;
+  line-height: 1.1363em;
+  font-family: 'Lulo Clean One';
+    font-weight: bold;
+    font-style: normal;
+}
+h4,.h4{
+  font-size: 1.375em;
+  line-height: 1.253em;
+  font-family: 'Lulo Clean One';
+    font-weight: bold;
+    font-style: normal;
+}
+h5,.h5{
+  font-size: 1.255em;
+  line-height: 1.276em;
+  font-family: 'Lulo Clean One';
+    font-weight: bold;
+    font-style: normal;
+}
+h6,.h6{
+  font-size: 1.125em;
+  line-height: 1.31em;
+  font-family: 'Lulo Clean One';
+    font-weight: bold;
+    font-style: normal;
+}
+p, .p{
+  font-family: 'Roboto', sans-serif;
+}
+p.condensed, .p.condensed{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+@media screen and (max-width: 480px){
+  h1,.h1{font-size: 2em;font-size: 32px;line-height: 1.25em;}
+  h2,.h2{font-size: 1.625em;font-size: 26px;line-height: 1.1538461em;}
+  h3,.h3{font-size: 1.375em;line-height: 1.1363em;}
+  h4,.h4{font-size: 1.125em;line-height: 1.1111em;}
+  h5,.h5{font-size: 1.015em;line-height: 1.1002em;}
+  h6,.h6{font-size: 1em;line-height: 1.1002em;}
+}
+@media screen and (max-width: 768px){
+  *{font-size: 1em;line-height: 22px;}
+  h1,.h1{font-size:2.5em;line-height: 1.125em}
+  h2,.h2{font-size: 2em;font-size: 32px;line-height: 1.25em;}
+  h3,.h3{font-size: 1.5em;line-height: 1.1363em;}
+  h4,.h4{font-size: 1.125em;line-height: 1.1222em;}
+  h5,.h5{font-size: 1.117em;line-height: 1.1111em;}
+  h6,.h6{font-size: 1.005em;line-height: 1.1002em;}
+}
+@media screen and (max-width: 1024px){
+  h1,.h1{font-size: 3em;font-size: 48px;line-height:1.05em;}
+  h2,.h2{font-size: 2.25em;font-size: 36px;line-height:1.25em;}
+  h3,.h3{font-size: 1.75em;line-height: 1.1363em;}
+  h4,.h4{font-size: 1.125em;line-height: 1.1222em;}
+  h5,.h5{font-size: 1.117em;line-height: 1.1111em;}
+  h6,.h6{font-size: 1.005em;line-height: 1.1002em;}
+}
+@media screen and (min-width: 1024px){
+  h1,.h1{font-size: 3.1em;font-size: 50px;line-height:1.05em;}
+  h2,.h2{font-size: 2.25em;font-size: 36px;line-height:1.25em;}
+  h3,.h3{font-size: 1.75em;line-height: 1.1363em;}
+  h4,.h4{font-size: 1.125em;line-height: 1.1222em;}
+  h5,.h5{font-size: 1.117em;line-height: 1.1111em;}
+  h6,.h6{font-size: 1.005em;line-height: 1.1002em;}
+}
+
+@media print{
+  *{font-size: 12pt;}
+  h1,.h1{font-size: 36pt;}
+  h2,.h2{font-size: 24pt;}
+  h3,.h3{font-size: 18pt;}
+  h4,.h3{font-size: 14pt;}
+  h5,.h5{font-size: 12pt;}
+  h6,.h6{font-size: 10pt;}
+  p,.p{font-size: 10pt;}
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.alignright {
+  text-align: left;
+}
+
+.aligncenter {
+  text-align: left;
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+.sticky {
+  background: #FAFAFA;
+  border: 3px solid $lightgray;
+  padding: 15px;
+}
+
+.category-sticky {
+  background: #FAFAFA;
+  border: 3px solid $lightgray;
+  padding: 15px;
+}
+::selection {
+  background: $blue;
+  color: $white
+}
+ul.inset {
+  padding-left: 10px
+}
+.chat_box .chat_message_wrapper ul.chat_message>li+li {
+  margin-top: 4px
+}
+
+/* End BASE CSS*/

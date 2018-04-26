@@ -1,0 +1,67 @@
+/* Navbar Styles */
+.navbar-default{
+  background-color: $white;
+}
+.navbar.navbar-fixed-top{
+  min-height: 125px;
+}
+.navbar.navbar-fixed-top *{
+  /*min-height: 125px;
+  max-height: 135px;*/
+}
+.navbar.navbar-fixed-top .container{
+  padding: 0 5% 0 10%;
+}
+.navbar.navbar-fixed-top .navbar-header{
+  font-size: 1.5em;
+}
+.navbar.navbar-fixed-top .navbar-header .navbar-brand{
+  padding: 25px 0 0 0;
+}
+.navbar.navbar-fixed-top .navbar-header .navbar-brand img{
+  max-height: 85px!important;
+  width: auto;
+}
+.navbar.navbar-fixed-top .navbar-nav>li{
+  margin-top: 50px;
+}
+.navbar.navbar-fixed-top .navbar-nav>li{
+  font-size: 1.5em;
+}
+.navbar.navbar-fixed-top .navbar-nav>li:not(.navbar-button)>a{
+  color: $lightgray;
+}
+.navbar.navbar-fixed-top .navbar-nav>li.active:not(.navbar-button),
+.navbar.navbar-fixed-top .navbar-nav>li:hover:not(.navbar-button),
+.navbar.navbar-fixed-top .navbar-nav>li:focus:not(.navbar-button){
+  background-color: transparent;
+}
+.navbar.navbar-fixed-top .navbar-nav>li.active:not(.navbar-button)>a,
+.navbar.navbar-fixed-top .navbar-nav>li:hover:not(.navbar-button)>a,
+.navbar.navbar-fixed-top .navbar-nav>li:focus:not(.navbar-button)>a{
+  color: $blue;
+  background:transparent;
+}
+
+.navbar-button{
+  border-radius: 15px;
+  background: $blue;
+  color: white;
+  padding: 0 35px;
+  margin-left: 5px;
+  border: 3px solid transparent;
+}
+.navbar-button:hover{
+  background: $white;
+  color: $blue;
+  border: 3px solid $blue;
+}
+.navbar-button a{
+  color: $white!important;
+}
+.navbar-button:hover a{
+  color: $blue!important;
+}
+
+
+/* End Navbar Styles */

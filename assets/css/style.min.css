@@ -1,0 +1,39 @@
+.container.parallax-inner, .portfolio-container .piece .piece-container {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1975d2', endColorstr='#139869', GradientType=1)
+}
+
+
+@media screen and (max-width:768px) {
+
+  .container.portfolio-container {
+    min-height: 400px;
+    height: auto
+  }
+  .market-item .tag {
+    margin-top: -195px!important
+  }
+}
+
+.color-white {
+  color: white
+}
+
+
+
+
+
+
+
+.heading-container {
+  padding-top: 2.5%;
+  margin-bottom: 2.5%;
+  text-align: center
+}
+
+
+
+
+
+.chat_box .chat_message_wrapper ul.chat_message>li+li {
+  margin-top: 4px
+}

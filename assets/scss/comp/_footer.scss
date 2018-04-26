@@ -1,0 +1,24 @@
+.footer{
+  background-color: $blue!important;
+  color: $white!important;
+  bottom: -30px;
+  border-radius: 0;
+  margin-top: -55px;
+}
+.footer ul.navbar li{
+  padding:15px;
+  color: $white!important;
+}
+
+.footer ul.navbar li a{
+  color: $white;
+}
+.footer ul.navbar li a{
+  color: rgba($white, 0.7);
+}
+.footer .navbar-nav p a{
+  color: $white;
+}
+.footer .navbar-nav p a{
+  color: rgba($white, 0.7);
+}

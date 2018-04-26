@@ -1,0 +1,26 @@
+.sidebar {
+  position: fixed;
+  right: 0
+}
+
+.list-group-item.is-menu .advertisement {
+  border: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 200px
+}
+
+.widget-title {
+  background-color: $blue;
+  padding: 10px 0;
+  text-align: center;
+  color: white
+}
+
+.list-group-item:not(.advertisement) {
+  border: 0;
+  border-bottom: 2px dashed #ddd!important;
+  border-radius: 0!important;
+  padding: 8px
+}

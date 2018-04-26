@@ -1,0 +1,11 @@
+.landing.coming-soon {
+  background:$grad,  url('https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg');
+}
+@media screen and (max-width:768px) {
+  .coming-soon-landing{
+    padding: 25% 15%;
+    max-height: 450px;
+    min-height: 175px;
+    background-position: top center;
+  }
+}

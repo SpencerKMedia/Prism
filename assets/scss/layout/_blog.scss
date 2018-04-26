@@ -1,0 +1,27 @@
+.landing.blog {
+  background:$grad,  url('https://images.pexels.com/photos/77984/pexels-photo-77984.jpeg');
+}
+@media screen and (max-width:768px) {
+  .landing.blog{
+    padding: 25% 15%;
+    max-height: 450px;
+    min-height: 175px;
+    background-position: top center;
+  }
+}
+.skill-icon-box,.skill-text-box{
+  display: inline-block;
+}
+.skill-icon-box{
+  text-align: right;
+  width: 7.5%;
+  top: 0;
+  bottom: 100px;
+  margin-top: 5%;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.skill-text-box{
+  text-align:left;
+  width: 85%;
+}

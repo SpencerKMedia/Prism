@@ -1,0 +1,388 @@
+/*BLOG*/
+
+@media screen and (min-width:1024px) {
+  .slider-images {
+    min-width: 700px;
+    overflow-x: hidden;
+    background-image: url(https://img.skmcdn.xyz/Sites/SpencerKMedia/display.png);
+    background-repeat: no-repeat;
+    min-height: 650px
+  }
+}
+
+.slider-rotator {
+  color: #fff;
+  text-align: left
+}
+
+#wordRotator {
+  font-size: 2em;
+  color: $blue;
+  height: 140px
+}
+
+.vertical-center {
+  padding: 5% 0
+}
+.landing.home {
+  background:$grad,  url('https://img.skmcdn.xyz/Sites/SpencerKMedia/landing.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25% 20%;
+  max-height: 1000px;
+  min-height: 950px
+}
+
+.landing.home .row h1{
+  font-size: 3.5em;
+  font-weight: 600;
+}
+.landing.home .row p{
+  font-size: 1.4em;
+  font-weight: 300;
+}
+@media screen and (max-width: 1023px){
+  .slider-container{
+  }
+}
+@media screen and (max-width: 768px){
+  .landing.home {
+    background-position: bottom right;
+    min-height: 600px;
+    max-height: 750px;
+    padding: 1%;
+    margin-top: 65px;
+  }
+}
+.recent-blog{
+  background-color: $altwhite;
+  padding: 5% 15%;
+}
+.recent-blog .recent-blog-post{
+  margin: 0 auto;
+  background-color: $white;
+  padding: 0px 0px 10px 0;
+}
+.recent-blog-post:hover{
+  -webkit-box-shadow: -3px -3px 93px -76px rgba(0,0,0,1);
+  -moz-box-shadow: -3px -3px 93px -76px rgba(0,0,0,1);
+  box-shadow: -3px -3px 93px -76px rgba(0,0,0,1);
+}
+.recent-blog-post h3{
+  color: $blue;
+}
+.recent-post-content{
+  padding:0 15px;
+}
+@media screen and (min-width: 1024px){
+  .recent-blog .col-md-4.recent-blog-post{
+    width: 31%;
+  }
+  .recent-blog .col-md-4.recent-blog-post:not(:last-child){
+    margin-right: 2%;
+  }
+}
+.recent-blog p{
+  margin-bottom: 25px;
+}
+.recent-blog .recent-post-thumb{
+  margin-bottom: 65px;
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 762px){
+  .recent-blog .recent-post-thumb{
+    margin-bottom: 25px;
+  }
+}
+/*END BLOG*/
+
+/* CTA */
+.call-to-attention {
+  color: #757575
+}
+
+.call-to-attention h2, .call-to-attention strong {
+  color: #212121
+}
+
+.cta-image {
+  height: 250px;
+  background-image: url(https://img.skmcdn.xyz/Sites/SpencerKMedia/cta.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll
+}
+/*END CTA */
+
+/* MARKET */
+.container-fluid.market-container {
+  background-color: $black;
+  color: #fff;
+  padding: 4%;
+  text-align: center
+}
+
+.col-md-6.market-item {
+  width: 48.5%;
+  min-height: 450px;
+  padding: 5% 3.5%;
+  background-color: #fff;
+  margin: 40px 0
+}
+
+.market-item img {
+  width: 100%;
+  height: auto;
+  color: $blue
+}
+
+.market-item .tag {
+  position: absolute;
+  margin-top: -280px;
+  padding: 2% 3%;
+  background-color: #4e9cea!important;
+  color: white
+}
+
+.market-item h2, .market-item ul li {
+  color: $blue
+}
+
+.market-item .market-price {
+  background-color: $blue;
+  color: #fff;
+  width: 100%;
+  padding: 5% 0;
+  margin: 0
+}
+
+.market-item.disabled .market-price {
+  background-color: #4e9cea!important
+}
+
+.col-md-6.market-item:not(:last-child) {
+  margin-right: 3%
+}
+
+.market-item:focus .market-item:active, .market-item:hover {
+  background-color: #f5f5f5;
+  color: #1948d2
+}
+.market-price h1 {
+  font-size: 50px;
+  font-weight: 300
+}
+
+.market-item .button-lm {
+  padding: 15px 2%;
+  color: $blue;
+  border-radius: 50px
+}
+.market-item .button-lm{
+  background-color: #fff;
+  width: 100%
+}
+@media screen and (max-width:768px){
+  .col-md-6.market-item {
+    width: 100%
+  }
+
+  .market-item .tag {
+    margin-top: -195px!important
+  }
+}
+/*END MARKET */
+
+/*VIDEO*/
+.stream-container{
+  padding: 3% 20%;
+  background: $blue;
+  color: $white;
+}
+/*END VIDEO*/
+
+/*PORTFOLIO*/
+.container-fluid.portfolio-container {
+  margin: 0;
+  padding: 0;
+  display: block;
+  min-height: 450px;
+  width: 100%
+}
+
+.portfolio-container .piece {
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 2%;
+  min-height: 450px;
+  height: auto;
+  max-height: 500px
+}
+
+@media screen and (max-width:1000px) {
+  .portfolio-container .piece {
+    width: 100%;
+    display: block;
+    min-height: 400px;
+    background-attachment: scroll;
+    background-size: cover
+  }
+}
+
+.portfolio-container .piece .piece-container {
+  display: none;
+  background: rgba(25, 117, 210, 1);
+  background: -moz-linear-gradient(left, rgba(25, 117, 210, 1) 0, rgba(19, 152, 105, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0, rgba(25, 117, 210, 1)), color-stop(100%, rgba(19, 152, 105, 1)));
+  background: -webkit-linear-gradient(left, rgba(25, 117, 210, 1) 0, rgba(19, 152, 105, 1) 100%);
+  background: -o-linear-gradient(left, rgba(25, 117, 210, 1) 0, rgba(19, 152, 105, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(25, 117, 210, 1) 0, rgba(19, 152, 105, 1) 100%);
+  background: linear-gradient(to right, rgba(25, 117, 210, 1) 0, rgba(19, 152, 105, 1) 100%);
+  padding: 5% 0;
+  color: #fff;
+  min-height: 370px;
+  height: auto;
+  max-height: 400px;
+  width: 100%;
+  text-align: center
+}
+.portfolio-container .piece:focus .piece-container, .portfolio-container .piece:hover .piece-container {
+  display: block
+}
+@media screen and (max-width:768px) {
+  .portfolio-container .piece .piece-container {
+    display: block
+  }
+}
+.container.parallax-inner, .portfolio-container .piece .piece-container {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1975d2', endColorstr='#139869', GradientType=1)
+}
+/* End PORTFOLIO*/
+
+/*PRINT BLOCK */
+.print-block h3 {
+  font-size: 2.25em
+}
+.print-block {
+  min-height: 150px;
+  height: auto;
+  padding: 5% 20%;
+  color: #fff;
+  text-align: center;
+  background-image: url(https://img.skmcdn.xyz/Sites/SpencerKMedia/prism.jpg)
+}
+.blue:after {
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+  background: rgba(0, 89, 237, .6)
+}
+/*END PRINT BLOCK*/
+
+/* QUALITY */
+.quality-container {
+  background-image: url(https://img.skmcdn.xyz/Sites/SpencerKMedia/c0w13s5.jpg);
+  background-attachment: fixed;
+  height: 100%;
+  max-height: 550px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: table
+}
+
+.quality-container .col-md-4 {
+  max-height: 550px;
+  display: table-cell;
+  vertical-align: top;
+  float: none;
+  padding: 2% 3%
+}
+
+.quality-container .col-md-4:hover {
+  background-color: rgba(0, 0, 0, .3)
+}
+
+.quality-container h3 {
+  color: #e0e0e0;
+  margin-bottom: 10px
+}
+
+.quality-container h4 {
+  color: #fff
+}
+
+@media screen and (max-width:992px) {
+  .quality-container {
+    display: block;
+    max-height: 100%;
+    width: 100%
+  }
+  .quality-container .col-md-4 {
+    display: block;
+    width: 100%;
+    max-height: 525px
+  }
+}
+
+.quality-container .col-md-4:hover .btn.btn-white {
+  padding: 3% 10%;
+  color: $blue;
+  border: 3px solid $blue
+}
+.qualities {
+  color: $blue
+}
+/*END QUALITY */
+
+/*SERVICE CONTAINER */
+.container-fluid.services-container {
+  margin: 0;
+  height: 300px
+}
+
+.pocket-container {
+  padding: 0;
+  margin: 0
+}
+/* END SERVICES */
+
+/* SKILLS */
+.skills-container{
+  background-color: $blue;
+  padding: 0 10%;
+  color: $white;
+}
+
+.skills-container>.row{
+  margin: 10% auto;
+}
+
+.skill-box-wrap{
+
+}
+.skill-icon-box,.skill-text-box{
+  display: inline-block;
+}
+.skill-icon-box{
+  text-align: right;
+  width: 7.5%;
+  top: 0;
+  bottom: 100px;
+  margin-top: 5%;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.skill-text-box{
+  text-align:left;
+  width: 85%;
+}
+/*END SKILLS */

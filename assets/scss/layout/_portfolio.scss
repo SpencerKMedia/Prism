@@ -1,0 +1,111 @@
+.landing.case {
+  background:$grad, url('https://images.pexels.com/photos/34199/pexels-photo.jpg');
+}
+@media screen and (max-width:768px) {
+  .landing.case{
+    padding: 25% 0;
+    max-height: 450px;
+    min-height: 175px;
+    background-position: top center;
+  }
+  .landing.case .container{
+    padding: 15px 0;
+  }
+}
+.col-md-4.case{
+  min-height: 100px;
+  height: auto;
+  padding: 10% 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white!important;
+}
+.col-md-4.case:hover{
+  background:linear-gradient(
+    rgba($blue, 1),
+    rgba($green, 1)
+  );
+  background-image: linear-gradient(rgba($blue, .85),
+  rgba($green, .85))!important;
+}
+.col-md-4.case .case-inner{
+  opacity: 0;
+}
+.col-md-4.case:hover .case-inner{
+  opacity: 1;
+}
+@media screen and (min-width: 1024px){
+  .col-md-4.case{
+    width: 31%;
+  }
+  .col-md-4.case:not(:nth-child(3n+3)){
+    margin-right: 2%;
+  }
+}
+
+.mason-container{
+  margin: 0;
+  padding: 0;
+}
+.mason-row:nth-child(odd) .col-md-6{
+  float: left;
+}
+
+.mason-row:nth-child(even) .col-md-6:first-child{
+  float: right;
+}
+.mason-row{
+  min-height: 500px;
+  padding: 0;
+  margin: 0;
+}
+.mason-row:hover .mason-col,
+.mason-row:hover .mason-image{
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba($blue, 0.75),
+      rgba($green, 0.75)
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mason-col{
+  height: 500px;
+  padding: 10% 0;
+  text-align: center;
+  display: block;
+}
+.mason-row:hover .mason-col h3{
+  color: white;
+}
+.mason-image{
+  width: 50%;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+@media screen and (max-width: 1024px){
+  .mason-row{
+    min-height: 150px;
+    height: auto;
+  }
+  .mason-row:last-child{
+    margin-bottom:40px;
+  }
+  .mason-col{
+    width: 100%;
+    height: 200px;
+    max-height: 200px;
+  }
+  .mason-image{
+    display: none;
+  }
+}

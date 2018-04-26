@@ -10,7 +10,7 @@
     <nav class="navbar navbar-fixed-top navbar-default" id="topnav">
       <div class="container navbar-container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-top-collapse" aria-expanded="false">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -29,7 +29,7 @@
             ?>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbar-top-collapse">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <?php
             wp_nav_menu( array(
               'theme_location'    => 'primary',
